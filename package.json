@@ -4,9 +4,11 @@
   "description": "Simple, lightweight tool to help with testing AWS Lambda functions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --recursive"
+    "test": "./node_modules/mocha/bin/mocha test --recursive"
   },
-  "keywords": ["promise","lambda",
+  "keywords": [
+    "promise",
+    "lambda",
     "local",
     "testing"
   ],
@@ -22,6 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "mocha": "^3.2.0",
     "sinon": "^1.17.7"
   }
 }
