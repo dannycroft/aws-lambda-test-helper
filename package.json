@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-test-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple, lightweight tool to help with testing AWS Lambda functions",
   "main": "index.js",
   "scripts": {
