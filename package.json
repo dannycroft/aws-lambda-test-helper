@@ -1,0 +1,23 @@
+{
+  "name": "aws-lambda-test-helper",
+  "version": "1.0.0",
+  "description": "Simple, lightweight tool to help with testing AWS Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "keywords": ["promise","lambda",
+    "local",
+    "testing"
+  ],
+  "bugs":{
+    "url": "https://github.com/dannycroft/aws-lambda-test-helper/issues",
+    "email": "github@dannycroft.co.uk"
+  },
+  "author": "dannycroft",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.7"
+  }
+}
