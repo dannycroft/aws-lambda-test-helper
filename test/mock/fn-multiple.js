@@ -1,3 +1,5 @@
+"use strict"; 
+
 const https = require('https');
 
 module.exports.foo = function foo(event, context) {

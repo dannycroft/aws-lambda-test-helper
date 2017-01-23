@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dannycroft/aws-lambda-test-helper.svg?branch=master)](https://travis-ci.org/dannycroft/aws-lambda-test-helper)
+
 ## A promise based test helper for running node aws lambda functions
 
 Simple, lightweight tool to help with testing AWS Lambda functions. No dependencies to run.

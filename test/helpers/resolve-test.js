@@ -1,4 +1,5 @@
 /* global describe, it */
+"use strict"; 
 
 const expect = require('chai').expect;
 const resolve = require('../../lib/helpers/resolve');

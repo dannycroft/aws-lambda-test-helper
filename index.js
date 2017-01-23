@@ -1,3 +1,5 @@
+"use strict";
+
 const Context = require('./lib/context');
 const Event = require('./lib/event');
 const Fn = require('./lib/fn');
